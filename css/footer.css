@@ -1,0 +1,24 @@
+p{
+	margin: 0;
+	padding: 0;
+}
+
+.yejiao_top{
+	color: #333;
+	font-size: 14px;
+}
+.yejiao_top:hover{
+	color: #333;
+	text-decoration: none;
+}
+.yejiao_botton{
+	color: #808080;
+	font-size: 12px;
+}
+.yejiao_botton:hover{
+	color: #333;
+	text-decoration: none;
+}
+.height{
+	height: 200px
+}

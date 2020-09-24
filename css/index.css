@@ -1,0 +1,161 @@
+.carousel-indicators li {
+  width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #fff;
+	margin: 0 5px;
+}
+.carousel-indicators .active {
+  background-color: #0AA1ED;
+}
+p{
+	margin: 0;
+	padding: 0;
+}
+.carousel-control-prev,
+.carousel-control-next {
+	width: 4%;
+	height: 20%;
+	top: 40%;
+	border-radius: .25rem;
+	background-color: #aaa;
+}
+.carousel-control-prev{
+	left: 5px;
+}
+.carousel-control-next{
+	right: 5px;
+}
+.loucent_text{
+	border-bottom: 1px solid #8d8d8d;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.loucent_text>p{
+	margin-right: 15px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #6b6b6b;
+}
+.shangpin_top{
+	height: 377px;
+	background-color: #e8e8e8;
+}
+
+.shangpin_bottom{
+	height: 233px;
+	background-color: #e8e8e8;
+}
+
+
+.shangpin_2{
+	float: right;
+	transition:transform 1s;
+}
+.shangpin_2:hover{
+	transform: scale(1.1);
+}
+.shangpin2_2{
+	float: right;
+	transition:transform 1s;
+}
+.shangpin2_2:hover{
+	transform: scale(1.1);
+}
+.shangpin3_2{
+	float: right;
+	transition:transform 1s;
+}
+.shangpin3_2:hover{
+	transform: scale(1.1);
+}
+
+.shangpin4_img{
+	transition:transform 1s;
+}
+.shangpin4_img:hover{
+	transform: scale(1.1);
+}
+
+/* 小屏 */
+@media (min-width:576px) {
+	.shangpin_2{
+		margin-top: -270px;
+		margin-right: 30px;
+	}
+	.shangpin2_2{
+		margin-top: -180px;
+		margin-right: 55px;
+	}
+	.shangpin3_2{
+		margin-top: -120px;
+		margin-right: 30px;
+	}
+}
+
+/* 中屏 */
+@media (min-width:768px) {
+	.shangpin_2{
+		margin-top: -230px;
+		margin-right: 50px;
+	}
+	.shangpin2_2{
+		margin-top: -180px;
+		margin-right: 85px;
+	}
+	.shangpin3_2{
+		margin-top: -110px;
+		margin-right: 125px;
+	}
+}
+/* 大屏 */
+@media (min-width:992px) {
+	.shangpin_2{
+		margin-top: -260px;
+		margin-right: 30px;
+	}
+	.shangpin2_2{
+		margin-top: -180px;
+		margin-right: 35px;
+	}
+	.shangpin3_2{
+		margin-top: -120px;
+		margin-right: 30px;
+	}
+}
+/* 超大屏 */
+@media (min-width:1200px) {
+	.shangpin_2{
+		margin-top: -230px;
+		margin-right: 50px;
+	}
+	.shangpin2_2{
+		margin-top: -200px;
+		margin-right: 35px;
+	}
+	.shangpin3_2{
+		margin-top: -120px;
+		margin-right: 30px;
+	}
+	
+}
+
+.shangpin4_btn{
+	display: block;
+	width: 100px;
+	height: 32px;
+	background-color: #007bff;
+	color: #fff;
+	line-height: 32px;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+.shangpin4_btn:hover{
+	color: #fff;
+	text-decoration: none;
+	background-color: #006ee3;
+}
+
+img{
+	width: 100%;
+}

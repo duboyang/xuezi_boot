@@ -1,0 +1,69 @@
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+}
+.shangpin_img{
+	width: 70px;
+}
+.shangpin_img:hover{
+	transform: translate(2px,2px);
+	border: 1px solid #bcbcbc;	
+}
+.shangpin_shoujia{
+	    background: linear-gradient(to bottom, #f0f0f0 0%, #e0e0e0 100%);
+			border-radius: 5px;
+			box-shadow: 0px 0px 9px 1px #b5b5b5;
+}
+.shangpin_daimg{
+	transition: 1s;
+}
+.shangpin_daimg:hover{
+	transform: scale(1.1);
+}
+.shangpin_daimg_hidden{
+	overflow: hidden;
+}
+
+.btn-outline-dark{
+	border-radius: 0;
+	font-size: 14px;
+	border: 1px solid #797979;
+	padding: 8px;
+}
+
+.btn-outline-dark:hover {
+  color: #00aaff;
+	background-color: transparent;
+  border-color: #00aaff;
+}
+.btn-outline-dark:focus{
+	color: #00aaff;
+	background-color: transparent;
+	border-color: #00aaff;
+	outline: 0;
+	box-shadow: 0px 0px 0px 0px;
+}
+
+.active2{
+	color: #00aaff;
+	background-color: transparent;
+	border-color: #00aaff;
+}
+.shuliang_btn{
+	width: 30px;
+	height: 30px;
+	border: 1px solid #e8e8e8;
+}
+.shuliang_btn:focus{
+	outline: 0;
+}
+.shuliang_input{
+	width: 36px;
+	height: 30px;
+	text-align: center;
+	margin: 0 7px;
+	border: 1px solid #e8e8e8;
+	padding: 10px;
+}
+.shuliang_input:focus{
+	outline: 0;
+}

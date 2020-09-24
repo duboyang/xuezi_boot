@@ -1,0 +1,21 @@
+.header_css>div:nth-child(2)>div>input{
+	width: 300px;
+	border: 1px solid #0AA1ED;
+	outline: 0;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "|";
+}
+.header_css>div:nth-child(3)>ul>li>a{
+	font-size: 12px;
+	color: #bebebe;
+}
+.header_css>div:nth-child(3)>ul>li>a:hover{
+	color: blue;
+}
+.container>div:nth-child(2)>ul>li>a{
+	color: #969696;
+}
+.container>div:nth-child(2)>ul>li>a:hover{
+	color: #6d6d6d;
+}
